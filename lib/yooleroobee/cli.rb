@@ -7,10 +7,10 @@ module Yooleroobee
     def new(number)
       problem = Yooleroobee::FolderCreator.new.for_problem(number)
       say "Created the folder:"
-      say "./#{ problem.folder_name }", :red
+      say "./#{ problem.folder_name }", :green
       say "And the files:"
-      say "#{ problem.ruby_file_name }", :red
-      say "#{ problem.test_name }", :red
+      say "#{ problem.ruby_file_name }", :green
+      say "#{ problem.test_name }", :green
       say "for Problem #{ problem.number }: #{ problem.name }"
     rescue
       say "HEY: That folder already exists!", :bold
