@@ -14,9 +14,9 @@ To create a folder in the present working directory just type:
 
     $ yooleroobee new PROBLEM_NUMBER
 
-for Problem 8, you will get:
+for Problem 8, you will get a new directory:
 
- - A New Directory called **8-largest-product-in-a-series**
+ - **8-largest-product-in-a-series**
 
 And two files in that directory:
 
