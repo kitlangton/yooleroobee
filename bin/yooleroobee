@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+require "yooleroobee"
+
+Yooleroobee::CLI.start
