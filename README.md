@@ -2,7 +2,13 @@
 
 An an API for querying Project Euler AND a command line tool for creating test folders.
 
-This is a fairly simple gem.
+I found myself creating the same folder structure over and over again while working on Project Euler problems. This is a way of automating that process. However, this was mostly an effort to learn how to create a Ruby Gem.
+
+It was difficult practicing TDD at the same time as learning how to construct a gem. While the code isn't a procedural spagghetti pie, nor is it the epitome of OO Design. I think the project is still simple enough in concept and small enough in lines of code that it could act as a kata for refactoring an imperfectly designed application. I will slowly work to rectify this by myself, but feel free to fork around.
+
+The project should still be useful in the current state. Please yell at me if it is doing anything strange.
+
+Good luck!
 
 ## Installation
 
